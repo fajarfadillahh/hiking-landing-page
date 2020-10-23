@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Landing Page</title>
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="l-header">
+      <nav class="nav container">
+        <div>
+          <a href="#" class="nav__logo"
+            ><img src="./img/logo.svg" alt="Logo"
+          /></a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero container">
+      <div class="hero__img">
+        <img src="./img/home-image.svg" alt="Hero Image" />
+      </div>
+
+      <div class="hero__data">
+        <h1 class="hero__title">
+          Come On, Let's Explore <br />
+          The Mountains
+        </h1>
+        <p class="hero__description">
+          It's not mountains that we have <br />to conqueror, but ourselves
+        </p>
+        <a href="#" class="hero__btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ION ICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!-- MY JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
